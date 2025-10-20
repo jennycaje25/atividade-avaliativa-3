@@ -14,15 +14,15 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     
-       void Start()
-       {
-           sprite = GetComponent<SpriteRenderer>();
-           rb = GetComponent<Rigidbody2D>();
-           animator = GetComponent<Animator>();
-       }
+    void Start()
+    {
+        sprite = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
 
        
-   void Update()
+    void Update()
     {
         andando = false;
         
@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
         //animacoes
         animator.SetBool("Andando", andando);
         animator.SetBool("Pulo", !noChao);
+        
         
     }
 
