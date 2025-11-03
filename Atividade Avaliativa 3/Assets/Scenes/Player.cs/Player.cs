@@ -13,12 +13,16 @@ public class Player : MonoBehaviour
     private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private Animator animator;
+
+    private float posicaoAntiga;
     
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        posicaoAntiga = gameObject.transform.position.y;
     }
 
        
@@ -50,8 +54,21 @@ public class Player : MonoBehaviour
         //animacoes
         animator.SetBool("Andando", andando);
         animator.SetBool("Pulo", !noChao);
-        
-        
+
+        bool caindo = false;
+
+        if ( posicaoAntiga > gameObject.transform.position.y)
+        {
+            caindo = true;
+        }
+        else
+        {
+            caindo = false;
+        }
+
+        animator.SetBool("Caindo", !noChao && caindo);
+
+        posicaoAntiga = gameObject.transform.position.y;
     }
 
     void OnCollisionEnter2D(Collision2D colisao)
