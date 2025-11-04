@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Chao
+  - patrulha
   layers:
   - Default
   - TransparentFX
