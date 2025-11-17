@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      free-pixelart-samurai-sideview-tileset-wasteland-2d-unity-v0-4puckdsxcsga1_0: 6326564402637041411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
