@@ -34,7 +34,7 @@ public class PlataformaCaiVolta : MonoBehaviour
     {
         // trava ela de novo
         rb.bodyType = RigidbodyType2D.Kinematic;
-        rb.velocity = Vector2.zero; // tira a velocidade da queda
+        rb.linearVelocity = Vector2.zero; // tira a velocidade da queda
 
         // resetar a posição
         transform.position = posicaoInicial;
