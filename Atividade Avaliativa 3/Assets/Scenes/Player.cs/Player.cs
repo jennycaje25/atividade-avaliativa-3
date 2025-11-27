@@ -96,4 +96,5 @@ public class Player : MonoBehaviour
             noChao = true;
         }
     }
+    
 }
