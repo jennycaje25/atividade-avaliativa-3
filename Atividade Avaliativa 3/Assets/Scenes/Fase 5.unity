@@ -324,13 +324,31 @@ PrefabInstance:
     - {fileID: 5287683367943625322, guid: ba9d2dff422f352478591003d951072e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8663489098227251504, guid: ba9d2dff422f352478591003d951072e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 61943414}
   m_SourcePrefab: {fileID: 100100000, guid: ba9d2dff422f352478591003d951072e, type: 3}
 --- !u!1 &61943413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8663489098227251504, guid: ba9d2dff422f352478591003d951072e, type: 3}
   m_PrefabInstance: {fileID: 61943412}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &61943414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61943413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffd7a1dc8eba8c458e52d721fa06838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 20
+  forcaDoPulo: 7
+  forcaDoSegundoPulo: 5.5
 --- !u!1001 &71632241
 PrefabInstance:
   m_ObjectHideFlags: 0
