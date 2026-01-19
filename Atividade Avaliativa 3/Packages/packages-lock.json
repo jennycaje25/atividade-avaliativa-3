@@ -14,7 +14,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.aseprite": {
-      "version": "1.1.8",
+      "version": "1.1.10",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -103,7 +103,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.10.0",
+      "version": "2.10.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -140,11 +140,11 @@
         "com.unity.2d.spriteshape": "10.0.7",
         "com.unity.2d.tilemap": "1.0.0",
         "com.unity.2d.tilemap.extras": "4.1.0",
-        "com.unity.2d.aseprite": "1.1.8"
+        "com.unity.2d.aseprite": "1.1.10"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.31",
+      "version": "3.0.38",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -152,17 +152,8 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.visualstudio": {
-      "version": "2.0.22",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.9"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.inputsystem": {
-      "version": "1.13.1",
+      "version": "1.16.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -253,7 +244,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.4.6",
-      "depth": 0,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
@@ -273,7 +264,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.7",
+      "version": "1.8.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -294,7 +285,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.5",
+      "version": "1.9.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {

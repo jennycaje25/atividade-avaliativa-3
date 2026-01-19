@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Chao
   - patrulha
+  - "posi\xE7ao"
+  - Plataforma
   layers:
   - Default
   - TransparentFX
